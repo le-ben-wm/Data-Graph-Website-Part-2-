@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pollution</title>
+    <link rel="stylesheet" type="text/css" href="styleSheet.css" />
+    <script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+<div id="main">
+    <div id="header">
+        <h1>Pollution</h1>
+    </div>
+    <div id="content">
+        <div id="information">
+            <h2><u>The Problem</u></h2>
+            <p>In the widely industrialized world we live in, pollution has become a large problem. The largest and most well-known effect of pollution is global warming. Other effects of pollution include:</p>
+            <ul>
+                <li>Environment Degradation</li>
+                <li>Respiratory Problems</li>
+                <li>Ozone Depletion</li>
+                <li>Infertile Land</li>
+            </ul>
+            <div id="chart_div"></div>
+            <h2>The Causes</h2>
+            <p>There are various causes of pollution in the world around us. Some of these causes include:</p>
+            <ul>
+                <li><b>Burning of fossil fuels</b> - Sulfur dioxide emitted from the combustion of fossil fuels like coal, petroleum, and other factory combustibles is one of the major causes of air pollution.</li>
+                <li><b>Agricultural activities</b> - Ammonia is a very common by product from agriculture related activities and is one of the most hazardous gases in the atmosphere.</li>
+                <li><b>Indoor air pollution</b> - Household cleaning products and painting supplies emit toxic chemicals in the air and cause air pollution.</li>
+            </ul>
+            <div id="chart_div2"></div>
+            <h2>The Solution</h2>
+            <p>So what can you do to help decrease air pollution?</p>
+            <ul>
+                <li><b>Use public transportation</b> -  Encourage people to use public transportation to reduce pollution.</li>
+                <li><b>Conserve energy</b> - Switch off fans and lights when they are not necessary.</li>
+                <li><b>Reduce, reuse, recycle</b> - Do not throw away items that are not useful for you. Reuse them for another purpose, or recycle them if the option is available.</li>
+            </ul>
+        </div>
+        <table align="center">
+            <tr>
+                <td align="center">
+                    <img id="img1" src="http://www.californiaaccompany.com/wp-content/uploads/2013/05/Clouds.jpg" data-swap="http://images.nationalgeographic.com/wpf/media-live/photos/000/001/cache/green-house-factor_177_600x450.jpg"/>
+                    <p id="desc1">Air pollution is the contamination of air by smoke and harmful gases, mainly oxides of carbon, sulfur, and nitrogen.</p>
+                    <button type="button" onClick = img1Desc();>Change Description?</button>
+                </td>
+                <td align="center">
+                    <img id="img2" src="http://running-c.com/files/images/IMG_1393.JPG" data-swap="http://static.newworldencyclopedia.org/thumb/2/28/Landfill.jpg/300px-Landfill.jpg"/>
+                    <p id="desc2">Land pollution is the degradation of the Earth's surface caused by a misuse of resources and improper disposal of waste.</p>
+                    <button type="button" onClick = img2Desc();>Change Description?</button>
+                </td>
+                <td align="center">
+                    <img id="img3" src="https://upload.wikimedia.org/wikipedia/commons/6/62/Starsinthesky.jpg" data-swap="http://dingo.care2.com/pictures/causes/2945/2944743.large.jpg"/>
+                    <p id="desc3">Light pollution is the brightening of the night sky inhibiting the visibility of stars and planets by the use of improper lighting.</p>
+                    <button type="button" onClick = img3Desc();>Change Description?</button>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <img id="img4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/White-noise.png/800px-White-noise.png" data-swap="http://3.bp.blogspot.com/-0MOMufISamo/UuTP3h330sI/AAAAAAAAANA/DbT8UNtLgMM/s1600/all+types+of+pollutin+at+a+glance,+noise+pollution,air+pollution,+noise+pollution,water+pollution,countrymedia.blogspot.in,avoid+pollutions+(6).jpg"/>
+                    <p id="desc4">Noise pollution is any loud sounds that are either harmful or annoying to humans and animals.</p>
+                    <button type="button" onClick = img4Desc();>Change Description?</button>
+                </td>
+                <td align="center">
+                    <img id="img5" src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Annual_Average_Temperature_Map.jpg" data-swap="http://allaboutthermalpollution.weebly.com/uploads/1/4/1/4/14145091/1117384_orig.jpg"/>
+                    <p id="desc5">Thermal pollution is the increase of temperature in an area caused by human activity.</p>
+                    <button type="button" onClick = img5Desc();>Change Description?</button>
+                </td>
+                <td align="center">
+                    <img id="img6" src="http://www.e-marshall.k12.ia.us/district/road_13.jpg" data-swap="https://www.polemicdigital.com/wp-content/uploads/Advertising%20is%20visual%20pollution.jpg"/>
+                    <p id="desc6">Visual pollution is what you would call anything unattractive or visually damaging to the nearby landscape.</p>
+                    <button type="button" onClick = img6Desc();>Change Description?</button>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <img id="img7" src="https://macmanx.com/wp-content/uploads/2010/09/ocean-water-near-kauai.jpg" data-swap="https://lh5.googleusercontent.com/YIcrmtTIWdoBtT54lO4B-En2U2GXJytYZ8Bbk8sQJQIO5aOxv8g_AwAppG6hIqR3uYxpY4mb0SIUja42G2IdmT1xgI9su8iHDLSao1esnewrVe2_PSEkFeitzxDQY1EORSnvhxM"/>
+                    <p id="desc7">Water pollution is the contamination of any body of water (lakes, groundwater, oceans, etc).</p>
+                    <button type="button" onClick = img7Desc();>Change Description?</button>
+                </td>
+                <td align="center">
+                    <img id="img8" src="https://albertashistoricplaces.files.wordpress.com/2013/10/reuse-reduce-recycle.png" data-swap="http://i1.wp.com/diversified-recycling.com/wp-content/uploads/2013/05/New-Recycle-Center-078.jpg"/>
+                    <p id="desc8">Recycling is the process of collecting and processing materials that would otherwise be thrown away as trash and repurposing them.</p>
+                    <button type="button" onClick = img8Desc();>Change Description?</button>
+                </td>
+                <td align="center">
+                    <img id="img9" src="https://mexicoinstitute.files.wordpress.com/2013/08/energy-electricity_transmission_lines1.jpg" data-swap="http://www.multitech.com/applications-img/energy-renewable.jpg"/>
+                    <p id="desc9">Energy conservation refers to reducing energy consumption through using less of an energy service.</p>
+                    <button type="button" onClick = img9Desc();>Change Description?</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="footer">
+        <h1 style = "text-align: center;">Sources</h1>
+        <ul>
+            <li><a href = http://www.conserve-energy-future.com/PollutionTypes.php><p>Information on different type of pollution</p></a></li>
+            <li><a href = http://www.conserve-energy-future.com/causes-effects-solutions-of-air-pollution.php><p>Information on air pollution</p></a></li>
+            <li><a href = http://catalog.data.gov/dataset/biofuels-consumption-and-production-by-country-2000-2010-11ff9><p>Data for graph 1</p></a></li>
+            <li><a href = http://catalog.data.gov/dataset/greenhouse-gas-emissions-estimates><p>Data for graph 2</p></a></li>
+        </ul>
+        <div id="button">
+            <button type = "button" onClick = adventure();>Adventure?</button>
+            <button type = "button" onClick = alertButton();>Adventure?</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
